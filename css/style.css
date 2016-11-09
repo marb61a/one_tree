@@ -197,3 +197,46 @@ body {
     padding-right: 3px;
 }
 
+
+/* SECTION PARALLAX */
+#section-parllax {
+    text-align: center;
+    background: url(../img/trees.jpg) center repeat fixed;
+    padding: 140px 0;
+    background-repeat: cover;
+    color: white;
+}
+
+
+/* SECTION CARDS */
+#section-cards h2 {
+    text-align: center;
+}
+
+#section-cards {
+    padding: 5rem 0;
+}
+
+.card {
+    margin-top: 3rem;
+}
+
+.card img {
+    height: 180px;
+    width: 100%;
+    transition: 1s;
+}
+
+.card img:hover {
+    transform-style: scale(0.98);
+    transition: 1s;
+}
+
+.card a {
+    color: rgba(19, 128, 36, 0.90);
+}
+    
+    
+.card a:hover {
+    color: rgb(19, 128, 36);
+}
