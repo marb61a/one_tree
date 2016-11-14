@@ -21,7 +21,7 @@ body {
 
 /* SECTION COVER */
 #cover {
-    height: 100%;
+    height: 105%;
     background: url(../img/trees.jpg) center;
     background-size: cover;
     color: white; 
@@ -551,3 +551,98 @@ footer p {
         font-size: 43px;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        font-size: 15px;
+    }
+    
+    .fa-arrow-down {
+        position: absolute;
+        right: 135px;
+    }
+    
+    .monka-img,
+    .mario-img,
+    .monice-img {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .moto {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 865px) {
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 7rem 20rem 2rem 3rem !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .moto {
+        display: none;
+    }  
+    
+    .fa-arrow-down {
+        position: absolute;
+        right: 60px;
+        top: 150px;
+    }
+    
+    .monka-img,
+    .mario-img,
+    .monice-img {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .num {
+        margin-left: 0;
+    }
+    
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 30px;
+    }
+    
+    .social-links li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 541px) {
+    .fa.fa-arrow-down {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .testimonial {
+        margin-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .num {
+        margin-left: 0.1px;
+    }
+}
+
+
+
